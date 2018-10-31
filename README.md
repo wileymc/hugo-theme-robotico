@@ -21,7 +21,7 @@ In your config.toml, you can easily add images to your gallery.  Here is an exam
 ```
 [[params.portfolio]]
 
-link = "img/pots/example_01.jpg"
+link = "img/portfolio/example_01.jpg"
 
 [[params.portfolio]]
 
