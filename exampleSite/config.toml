@@ -39,16 +39,16 @@ link = ""
     identifier = ""
 
     [[languages.en.menu.primary]]
-    identifier = "booklist"
-    name = "booklist"
-    url = "/booklist/"
+    identifier = "about"
+    name = "about"
+    url = "/about/"
     weight = 30
 
-    # [[languages.en.menu.secondary]]
-    # identifier = "patreon"
-    # name = "Learn More"
-    # url = "https://www.patreon.com/bePatron?u=10637849"
-    # weight = 110
+    [[languages.en.menu.secondary]]
+    identifier = "patreon"
+    name = "Learn More"
+    url = "https://www.patreon.com/bePatron?u=10637849"
+    weight = 110
 
     [[languages.en.menu.secondary]]
     identifier = "bmc"
