@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <div class="container">
+        <div class="my-5 text-center">
+            {{ if isset .Site.Params "logofile" }}
+                <img src="{{ .Site.Params.logofile | absURL }}" alt="logo" style="max-height:125px;" />
+            {{ end }}
+            <h1 class="my-5">404</h1>
+            <h2 class="mb-3">The page you were looking for does not exist.</h2>
+            <a href="/">Visit the home page</a>
+        </div>
+    </div>
+{{ end }}

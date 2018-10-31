@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{ partial "header" . }}
+
+  <div class="col-sm-12">
+    <div class="card-columns">
+      {{ if .Site.Params.portfolio }}
+        {{ range .Site.Params.portfolio }}
+          <div class="card">
+            <a href="{{ .link | relURL }}" data-toggle="lightbox" data-gallery="gallery">
+              <img src="{{ .link | relURL }}" class="card-image img-fluid rounded">
+            </a>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <script>
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+      event.preventDefault();
+      $(this).ekkoLightbox({
+        alwaysShowClose: true
+      });
+    });
+  </script>
+
+  {{ partial "footer" }}
+{{ end }}
