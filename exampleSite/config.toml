@@ -4,8 +4,8 @@ theme = "minimo"
 paginate = 3
 
 [params]
-logofile = "wileys.website/img/Robobrand.png"
-faviconfile = "wileys.website/img/Robobrand.png"
+logofile = "https://wileys.website/img/Robobrand.png"
+faviconfile = "https://wileys.website/img/Robobrand.png"
 copyright = "Wiley McKay Conte 2018"
 github = "wileybaba"
 email = "baba@example.com"
@@ -19,3 +19,68 @@ defaultContentLanguage = 'en'
 [[params.portfolio]]
 
 link = ""
+
+[languages]
+  [languages.en]
+  languageCode = "en-us"
+    [[languages.en.menu.primary]]
+    identifier = "code"
+    name = "code"
+    url = "https://github.com/wileybaba"
+    weight = 10
+
+    [[languages.en.menu.primary]]
+    identifier = "portfolio"
+    name = "portfolio"
+    url = "/portfolio/"
+    weight = 20
+
+    [[languages.en.menu.primary]]
+    identifier = ""
+
+    [[languages.en.menu.primary]]
+    identifier = "booklist"
+    name = "booklist"
+    url = "/booklist/"
+    weight = 30
+
+    # [[languages.en.menu.secondary]]
+    # identifier = "patreon"
+    # name = "Learn More"
+    # url = "https://www.patreon.com/bePatron?u=10637849"
+    # weight = 110
+
+    [[languages.en.menu.secondary]]
+    identifier = "bmc"
+    name = "Buy me a coffee"
+    url = "https://www.buymeacoffee.com/wiley"
+    weight = 120
+
+  [languages.es]
+  languageCode = "es-us"
+    [[languages.es.menu.primary]]
+    identifier = "codigo"
+    name = "codigo"
+    url = "https://github.com/wileybaba"
+    weight = 10
+
+    [[languages.es.menu.primary]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 20
+
+    [[languages.es.menu.primary]]
+    identifier = ""
+
+    [[languages.es.menu.secondary]]
+    identifier = "patreon"
+    name = "Patreon"
+    url = "https://www.patreon.com/bePatron?u=10637849"
+    weight = 110
+
+    [[languages.es.menu.secondary]]
+    identifier = "bmc"
+    name = "Comprame Un Cafe"
+    url = "https://www.buymeacoffee.com/gokmen"
+    weight = 120
