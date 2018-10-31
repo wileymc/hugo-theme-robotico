@@ -18,7 +18,8 @@ For your home page, create and edit an `_index.md` file with your content.
 
 ### Gallery setup
 In your config.toml, you can easily add images to your gallery.  Here is an example:
-`[[params.portfolio]]
+```
+[[params.portfolio]]
 
 link = "img/pots/example_01.jpg"
 
@@ -29,7 +30,7 @@ link = "/img/portfolio/example_02.jpg"
 [[params.portfolio]]
 
 link = "/img/portfolio/example_03.jpg"
-`
+```
 This will import a relative URL, so be sure to use the appropriate file path for your images.  
 
 ## License
