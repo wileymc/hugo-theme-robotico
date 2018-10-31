@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 title = "Your Awesome Website"
-theme = "minimo"
+theme = "robotico"
 paginate = 3
 
 [params]
@@ -11,7 +11,7 @@ github = "wileybaba"
 email = "baba@example.com"
 twitter = "wiley_baba"
 instagram = "wileybaba"
-fork = "github.com/wileybaba/minimo_hugo_theme"
+fork = "github.com/wileybaba/Robotico_hugo_theme"
 progressively = true
 
 defaultContentLanguage = 'en'

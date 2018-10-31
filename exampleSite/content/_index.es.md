@@ -1,5 +1,5 @@
 +++ title = "Inicio" id = "Inicio" +++
 
-## Hugo Minimo Theme
+## Hugo Robotico Theme
 
 # Pon su `_index.md` en Español aqui.  
