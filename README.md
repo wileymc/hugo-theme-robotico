@@ -1,6 +1,6 @@
 # hugo-Robotico-theme
 
-A stripped down,  [alageek](https://github.com/gkmngrgn/hugo-alageek-theme/tree/a7789a01391c9357fba13704379089e8799adad8) based theme with an added portfolio/light-box gallery for artists/photographers to display their work.  Responsive with Bootstrap 4, Progressively.js, Latex support, and more.  
+A stripped down,  [alageek](https://github.com/gkmngrgn/hugo-alageek-theme/tree/a7789a01391c9357fba13704379089e8799adad8) based theme with an added portfolio/light-box gallery for artists/photographers to display their work.  Responsive with Bootstrap 4, single page support, Latex support, and more.  
 
 ## Dependencies
 * Bootstrap 4.1.3
