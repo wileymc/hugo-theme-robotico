@@ -17,8 +17,18 @@ progressively = true
 defaultContentLanguage = 'en'
 
 [[params.portfolio]]
+link = "https://picsum.photos/1200/768.jpg?image=251"
+[[params.portfolio]]
+link = "https://picsum.photos/1200/768.jpg?image=252"
+[[params.portfolio]]
+link = "https://picsum.photos/1200/768.jpg?image=253"
+[[params.portfolio]]
+link = "https://picsum.photos/1200/768.jpg?image=254"
+[[params.portfolio]]
+link = "https://picsum.photos/1200/768.jpg?image=255"
+[[params.portfolio]]
+link = "https://picsum.photos/1200/768.jpg?image=256"
 
-link = ""
 
 [languages]
   [languages.en]

@@ -1,4 +1,7 @@
-+++ title = "Inicio" id = "Inicio" +++
++++
+title = "Inicio"
+language = "es"
++++
 
 ## Hugo Robotico Theme
 
