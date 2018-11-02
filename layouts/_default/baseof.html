@@ -63,7 +63,7 @@
         }
     });
   </script>
-{{ block "lightbox" . }}{{ end }}
+  {{ block "lightbox" . }}{{ end }}
 
 
   {{ if .Site.Params.highlightjs }}
@@ -76,7 +76,7 @@
                 hljs.initHighlighting();
             }, true);
         </script>
-    {{ end }}
+  {{ end }}
 
   {{ if .Site.Params.progressively }}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/progressively/1.2.5/progressively.min.js" integrity="sha256-LvFVlLdfGI3WeEH+8Ni4kxLm02g2GlOfeGCGLXfRk/U=" crossorigin="anonymous"></script>

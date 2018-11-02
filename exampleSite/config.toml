@@ -14,22 +14,9 @@ twitter = "wiley_baba"
 instagram = "wileybaba"
 fork = "github.com/wileybaba/Robotico_hugo_theme"
 progressively = true
-
 defaultContentLanguage = 'en'
 
-[[params.portfolio]]
-link = "https://picsum.photos/1200/768.jpg?image=251"
-[[params.portfolio]]
-link = "https://picsum.photos/1200/768.jpg?image=252"
-[[params.portfolio]]
-link = "https://picsum.photos/1200/768.jpg?image=253"
-[[params.portfolio]]
-link = "https://picsum.photos/1200/768.jpg?image=254"
-[[params.portfolio]]
-link = "https://picsum.photos/1200/768.jpg?image=255"
-[[params.portfolio]]
-link = "https://picsum.photos/1200/768.jpg?image=256"
-
+# Menus
 
 [languages]
   [languages.en]
@@ -57,7 +44,7 @@ link = "https://picsum.photos/1200/768.jpg?image=256"
 
     [[languages.en.menu.secondary]]
     identifier = "patreon"
-    name = "Learn More"
+    name = "Patreon"
     url = "https://www.patreon.com/bePatron?u=10637849"
     weight = 110
 
@@ -95,3 +82,18 @@ link = "https://picsum.photos/1200/768.jpg?image=256"
     name = "Comprame Un Cafe"
     url = "https://www.buymeacoffee.com/gokmen"
     weight = 120
+
+# Gallery 
+
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=251"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=252"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=253"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=254"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=255"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=256"
