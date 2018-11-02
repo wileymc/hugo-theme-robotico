@@ -1,5 +1,6 @@
 name = "Robotico"
 license = "MIT"
+licenselink = "https://github.com/wileybaba/hugo-theme-robotico/blob/master/LICENSE.md"
 description = "A lightweight and blazing fast personal website theme"
 homepage = "https://github.com/wileybaba/hugo-theme-robotico"
 features = ["responsive", "gallery", "multilingual"]
