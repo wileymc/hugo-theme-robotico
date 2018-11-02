@@ -1,11 +1,12 @@
 baseURL = "https://example.com"
 title = "Your Awesome Website"
-theme = "robotico"
+theme = "hugo-theme-robotico"
 paginate = 3
 
 [params]
-logofile = "https://wileys.website/img/Robobrand.png"
-faviconfile = "https://wileys.website/img/Robobrand.png"
+description = "A sleek personal website theme"
+logofile = "img/Robobrand.png"
+faviconfile = "img/Robobrand.png"
 copyright = "Wiley McKay Conte 2018"
 github = "wileybaba"
 email = "baba@example.com"

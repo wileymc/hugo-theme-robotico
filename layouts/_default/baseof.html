@@ -10,11 +10,10 @@
     <meta name="referrer" content="no-referrer">
     <meta name="description" content="{{ .Description | default .Site.Params.description }}">
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    <meta property="og:locale" content="nn_NO" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}" />
-    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.meta_img | default .Site.Params.logofile }}" />
+    <meta property="og:image" content="{{ .Params.meta_img | default .Site.Params.logofile }}" />
     <meta property="og:description" content="{{ .Description | default .Site.Params.description }}" />
 
     {{ if .Site.Params.twitter }}
@@ -22,7 +21,7 @@
     {{ end }}
 
     <meta property="twitter:title" content="{{ .Title | default .Site.Title }}" />
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.meta_img | default .Site.Params.logofile }}" />
+    <meta property="twitter:image" content="{{ .Params.meta_img | default .Site.Params.logofile }}" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:description" content="{{ .Description | default .Site.Params.description }}" />
 
