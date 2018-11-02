@@ -15,6 +15,10 @@
     </div>
   </div>
 
+  {{ partial "footer" . }}
+{{ end }}
+
+{{ define "lightbox" }}
   <script>
     $(document).on("click", '[data-toggle="lightbox"]', function(event) {
       event.preventDefault();
@@ -23,6 +27,4 @@
       });
     });
   </script>
-
-  {{ partial "footer" }}
-{{ end }}
+{{ define "lightbox" }}
