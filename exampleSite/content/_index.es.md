@@ -3,6 +3,6 @@ title = "Inicio"
 language = "es"
 +++
 
-## Hugo Robotico Theme
+# Hugo Robotico Theme
 
-# Pon su `_index.md` en Español aqui.  
+#  `_index.es.md` contenido aqui.  

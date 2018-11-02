@@ -5,8 +5,8 @@ paginate = 3
 
 [params]
 description = "A sleek personal website theme"
-logofile = "img/Robobrand.png"
-faviconfile = "img/Robobrand.png"
+logofile = "img/robobrand.png"
+faviconfile = "img/robobrand.png"
 copyright = "Wiley McKay Conte 2018"
 github = "wileybaba"
 email = "baba@example.com"
