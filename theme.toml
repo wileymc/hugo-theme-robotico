@@ -5,6 +5,7 @@ description = "A lightweight and blazing fast personal website theme"
 homepage = "https://github.com/wileybaba/hugo-theme-robotico"
 features = ["responsive", "gallery", "multilingual"]
 tags = ["fast", "responsive", "bootstrap", "personal"]
+min_version = "0.10"
 
 [author]
   name = "Wiley McKay Conte"
