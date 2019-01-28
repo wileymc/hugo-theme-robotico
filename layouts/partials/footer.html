@@ -45,13 +45,13 @@
                     {{ end }}
 
                     {{ if .Site.Params.email }}
-                        <a href="mailto:{{ .Site.Params.email }}">
+                        <a href="mailto:{{ .Site.Params.email }}" target="_blank">
                             <img class="icon" src="{{ .Site.BaseURL }}img/email.svg" alt="email" title="email me" />
                         </a>
                     {{ end }}
 
                     {{ if .Site.Params.fork}}
-                        <a href="{{ .Site.Params.fork }}">
+                        <a href="{{ .Site.Params.fork }}" target="_blank">
                             <img class="icon" src="{{ .Site.BaseURL }}img/git.svg" alt="fork this page" title="fork this theme" />
                         </a>
                     {{ end }}
@@ -65,6 +65,11 @@
                         {{ end }}
                     {{ end }}
                 </div>
+                <!-- dark mode toggle example -->
+                <!-- <div class="toggle toggle--daynight">
+                  <input type="checkbox" id="toggle--daynight" class="toggle--checkbox">
+                  <label class="toggle--btn" for="toggle--daynight"><span class="toggle--feature"></span></label>
+                </div> -->
             </div>
         </div>
     </div>

@@ -1,6 +1,7 @@
 /* Global styles */
 body {
     font-family: "Raleway";
+    /* background-color: #3a3d3c; */
 }
 
 a {
@@ -29,6 +30,10 @@ a:hover {
     color: #5188ef !important;
 }
 
+.text-bmc:hover {
+    color: #5179ea !important;
+}
+
 /* Partial: Header */
 .header a:hover {
     text-decoration: none;
@@ -54,6 +59,10 @@ a:hover {
 .header ul.nav li a:hover {
     color: #f4b642;
   }
+
+.langToggle a:hover {
+  color: #51ef7e !important;
+}
 
 .header ul.nav li:first-child a {
     padding-left: 2px;
@@ -138,14 +147,39 @@ a:hover {
 .content .markdown pre {
     font-family: "Menlo", monospace;
     font-size: 0.98rem;
-    background-color: #f7f7f7;
+    border-radius: 1rem;
 }
 
 .content .markdown code {
     /* enclosed by single backtick (`) */
     padding: 0.15em 0.5em;
     border-radius: 2px;
-    color: #7adbbc;
+    background-color: #000645;
+}
+
+.content .markdown .js code {
+  color: #FFFF33 !important;
+  background-color: #cccaca !important;
+}
+
+.content .markdown .go code {
+  color: #426ab9 !important;
+  background-color: #cccaca !important;
+}
+
+.content .markdown .python code {
+  color: #54aabd !important;
+  background-color: #cccaca !important;
+}
+
+.content .markdown .ruby code {
+  color: #9c1e1f !important;
+  background-color: #cccaca !important;
+}
+
+.content .markdown .php code {
+  color: #5566aa !important;
+  background-color: #cccaca !important;
 }
 
 .content .markdown pre {

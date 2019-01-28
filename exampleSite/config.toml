@@ -14,8 +14,9 @@ twitter = "wiley_baba"
 instagram = "wileybaba"
 fork = "github.com/wileybaba/Robotico_hugo_theme"
 progressively = true
-
 defaultContentLanguage = 'en'
+
+# Menus
 
 [languages]
   [languages.en]
@@ -82,17 +83,17 @@ defaultContentLanguage = 'en'
     url = "https://www.buymeacoffee.com/gokmen"
     weight = 120
 
-# Gallery
+# Gallery 
 
-    [[params.portfolio]]
-    link = "https://picsum.photos/1200/768.jpg?image=251"
-    [[params.portfolio]]
-    link = "https://picsum.photos/1200/768.jpg?image=252"
-    [[params.portfolio]]
-    link = "https://picsum.photos/1200/768.jpg?image=253"
-    [[params.portfolio]]
-    link = "https://picsum.photos/1200/768.jpg?image=254"
-    [[params.portfolio]]
-    link = "https://picsum.photos/1200/768.jpg?image=255"
-    [[params.portfolio]]
-    link = "https://picsum.photos/1200/768.jpg?image=256"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=251"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=252"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=253"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=254"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=255"
+  [[params.portfolio]]
+  link = "https://picsum.photos/1200/768.jpg?image=256"

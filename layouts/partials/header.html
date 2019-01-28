@@ -12,7 +12,6 @@
                 <a href="{{ .Site.BaseURL }}">
                     <h1 class="font-weight-bold name">{{ .Site.Title }}</h1>
                 </a>
-
                 <ul class="nav nav-primary">
                     {{ range .Site.Menus.primary.ByWeight }}
                         <li class="nav-item">
@@ -24,7 +23,7 @@
                     {{ end }}
 
                     {{ if .IsTranslated }}
-                        <li class="ml-4">
+                        <li class="ml-4 langToggle">
                             <ul class="nav nav-languages">
                                 {{ range .Translations }}
                                     <li>
@@ -35,7 +34,15 @@
                                 {{ end }}
                             </ul>
                         </li>
+
+
+
                     {{ end }}
+
+                    <!-- {{ if .Site.Params.darkMode }} -->
+
+                    <!-- {{ end }} -->
+
                 </ul>
 
                 <ul class="nav nav-secondary">
@@ -47,6 +54,7 @@
                             </a>
                         </li>
                     {{ end }}
+
                 </ul>
             </div>
         </div>
